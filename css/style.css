@@ -31,9 +31,18 @@ body{
     color: var(--title-text-color);
 }
 
+.site-nav{
+    height: 80px;
+    width: 1600px;
+}
+
 /*post*/
 .post{
     background-color: var(--secondary-background-color);
+    height: 600px;
+    width: 1600px;
+    text-align: center;
+    
 }
 .post-title{
     color: var(--second-text-color);
@@ -56,6 +65,10 @@ body{
 
 .page-footer{
     background-color: var(--secondary-background-color);
+    height: 252px;
+    width: 1600px;
+    text-align: center;
+    white-space: 80px;
 }
 
 span{
@@ -77,5 +90,49 @@ span{
 .phone-number{
     color: var(--primary-background-color);
 }
+
+.section-title{
+    color: #212121;
+    
+}
+
+.benefits-list{
+    list-style-type: none;
+}
+
+.team-list{
+    list-style-type: none;
+}
+
+.site-list{
+    list-style-type: none;
+}
+
+.contacts-list{
+    list-style-type: none;
+}
+
+.team-name{
+    color: #212121;
+}
+
+.team-position{
+    color: #757575;
+}
+
+.email{
+    color: #757575;
+}
+
+.phone-number{
+    color: #757575;
+}
+
+.web1{
+    color: #2196F3;
+}
+
+
+
     
    

@@ -9,9 +9,11 @@
  --secondary-background-color: #2f303A;
 }
 body{
-    padding: 0 215px;
+    width: 1600px;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
    }
 
    span{
@@ -21,6 +23,13 @@ body{
    /*header*/
    .logo{
     color: var(--logo-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0,78px;
+    text-decoration: none;
+
    }
 
    .blue{
@@ -36,6 +45,28 @@ body{
     width: 1600px;
 }
 
+.site-list{
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.site-list:hover{
+    color: var(--background-button-color);
+}
+
+.site-link{
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+.site-link:hover,
+.site-link:focus{
+    color: var(--background-button-color);
+}
+
 /*post*/
 .post{
     background-color: var(--secondary-background-color);
@@ -46,21 +77,46 @@ body{
 }
 .post-title{
     color: var(--second-text-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 68px;
+    letter-spacing: 2.54px;
+    text-align: center;
 }
 .post-button{
     color: var(--second-text-color);
     background: var(--background-button-color);
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
+    margin: 0 auto;
+}
+.section-title{
+    color: var(--title-text-color);
+    font-size: 36px;
+    font-weight: 700;letter-spacing: 1.80px;
+    text-align: center;
 }
 
 /*benefits*/
 .benefits-name{
     color: var(--title-text-color);
     font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
 }
 
 .benefits-text{
     font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
 }
 
 .page-footer{

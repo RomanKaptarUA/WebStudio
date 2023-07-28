@@ -253,6 +253,7 @@ span{
 
 .section-title{
     color: #212121;
+    margin-top: 118px;
     
 }
 
@@ -292,6 +293,7 @@ li{
 
 .button-portfolio{
     border-radius: 4px;
+    border: none;
 }
 
 .button-link:hover,
@@ -305,10 +307,17 @@ li{
 }
 
 .ul-portfolio{
+    
     padding-top: 94px;
 }
 
+.benefits{
+    margin-top: 94px;
+}
 
+.post{
+    text-align: center;
+}
 
     
    

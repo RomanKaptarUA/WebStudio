@@ -196,6 +196,7 @@ body{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.42px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .benefits-text{
@@ -203,6 +204,7 @@ body{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .page-footer{
@@ -319,5 +321,4 @@ li{
     text-align: center;
 }
 
-    
    

@@ -132,9 +132,7 @@ body{
 .post{
     background-color: var(--secondary-background-color);
     height: 600px;
-    width: 1600px;
-    text-align: center;
-    
+    text-align: center;    
 }
 .post-title{
     color: var(--second-text-color);
@@ -226,7 +224,6 @@ body{
 .page-footer{
     background-color: var(--secondary-background-color);
     height: 252px;
-    width: 1600px;
     white-space: 80px;
 }
 
@@ -278,6 +275,7 @@ span{
     list-style-type: none;
     display: flex;
     align-items: center;
+    
 }
 
 .benefits-block{
@@ -346,6 +344,7 @@ li{
     list-style: none;
 }
 
+
 .button-portfolio{
     border-radius: 4px;
     border: none;
@@ -369,8 +368,14 @@ li{
 }
 
 .ul-portfolio{
-    
     padding-top: 94px;
+    padding-bottom: 56px;
+   display: flex;
+   justify-content: center;
+}
+
+.li-portfolio{
+    margin-right: 14px;
 }
 
 .benefits{

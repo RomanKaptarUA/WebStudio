@@ -53,7 +53,7 @@ a{
 }
 
 .activity-list{
-    padding-bottom: 54px;
+    margin-bottom: 86px;
 }
 
 team
@@ -168,6 +168,7 @@ body{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 0 auto;
 }
 
 .team-list{
@@ -222,6 +223,7 @@ body{
 
 
 .page-footer{
+    padding-top: 60px;
     background-color: var(--secondary-background-color);
     height: 252px;
     white-space: 80px;
@@ -399,3 +401,4 @@ li{
     flex-wrap: wrap;
     margin-left: -30px;
 }   
+

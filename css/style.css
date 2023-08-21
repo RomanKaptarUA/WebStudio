@@ -111,6 +111,7 @@ body{
     line-height: normal;
     letter-spacing: 0.28px;
     display: flex;
+    margin-left: 93px;
     
 }
 
@@ -135,12 +136,13 @@ body{
     text-align: center;    
 }
 .post-title{
+    display: flex;
+    justify-content: center;
     color: var(--second-text-color);
     font-size: 44px;
     font-weight: 900;
     line-height: 68px;
     letter-spacing: 2.54px;
-    text-align: center;
 }
 .post-button{
     color: var(--second-text-color);
@@ -188,6 +190,7 @@ body{
     font-weight: 500;
     letter-spacing: 0.48px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .team{
@@ -228,8 +231,8 @@ body{
 .page-footer{
     padding-top: 60px;
     background-color: var(--secondary-background-color);
-    height: 252px;
     white-space: 80px;
+    padding-bottom: 60px;
 }
 
 .footer-logo{
@@ -258,6 +261,10 @@ span{
     text-decoration: none;
 }
 
+.footer-added{
+    margin-top: 20px;
+}
+
 .phone-number,
 .email{
     color: var(--primary-text-color);
@@ -267,7 +274,6 @@ span{
     cursor: pointer;
     text-decoration: none;
 }
-
 
 
 .section-title{
@@ -310,7 +316,6 @@ width: 270px;
     line-height: normal;
     letter-spacing: 0.28px;
     display: flex;
-
 }
 
 .contacts-list{
@@ -321,6 +326,8 @@ width: 270px;
 }
 
 .team-name{
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: #212121;
 }
 
@@ -405,7 +412,7 @@ li{
     background: #FFF;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
     width: 370px;
-    height: 404px;
+
 }
 
 .project-list{
@@ -413,6 +420,10 @@ li{
     flex-wrap: wrap;
     gap: 30px;
 }   
+
+.footer-content{
+    padding: 9px;
+}
 
 .div-vid{
     margin-left: 24px;

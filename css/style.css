@@ -32,6 +32,13 @@ a{
     color: var(--title-text-color);
 }
 
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .header{
     padding-top: 17px;
     padding-bottom: 17px;
@@ -62,12 +69,6 @@ img{
     display: block;
 }
 
-.container{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
 
 body{
     color: var(--primary-text-color);
@@ -137,15 +138,19 @@ body{
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(/images/imgoverlay.png);
        background-size: cover;
         background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 }
 .post-title{
     display: flex;
-    justify-content: center;
     color: var(--second-text-color);
     font-size: 44px;
     font-weight: 900;
     line-height: 68px;
     letter-spacing: 2.54px;
+    margin-bottom: 30px;
 }
 .post-button{
     color: var(--second-text-color);
@@ -238,14 +243,7 @@ body{
     padding-bottom: 60px;
 }
 
-.footer-logo{
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    text-decoration: none;
-    color: var(--backgroun-team-color);
-}
+
 
 span{
     color: var(--second-text-color);
@@ -262,6 +260,19 @@ span{
     letter-spacing: 0.42px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.footer-logo{
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+    color: var(--backgroun-team-color);
+}
+
+.footer-content{
+    padding: 9px;
 }
 
 .footer-added{
@@ -327,6 +338,10 @@ height: 120px;
 
 .benefits-block:not(:last-child){
     margin-right: 30px;
+}
+
+.benefits{
+    margin-top: 94px;
 }
 
 .benefits-name{
@@ -431,9 +446,7 @@ li{
     /* margin-right: 14px; */
 }
 
-.benefits{
-    margin-top: 94px;
-}
+
 
 .post{
     text-align: center;
@@ -453,9 +466,7 @@ li{
     gap: 30px;
 }   
 
-.footer-content{
-    padding: 9px;
-}
+
 
 .div-vid{
     margin-left: 24px;

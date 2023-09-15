@@ -227,6 +227,7 @@ body{
 
 
 .benefits-text{
+    padding-bottom: 20px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -308,32 +309,30 @@ width: 270px;
 height: 120px;
 }
 
+
+
 .benefits-block::before{
     content: '';
     display: block;
     width: 100%;
     height: 120px;
     background-color: #FFF;
-    background-image: url(/images/antennas.png);
+    background-image: url(../images/antennas.png);
     background-repeat: no-repeat;
     background-size: 70px;
     background-position: center;
 }
 
-.benefits-block:nth-child(1)::before{
-    background-image: url(/images/antennas.png);
-}
-
 .benefits-block:nth-child(2)::before{
-    background-image: url(/images/clocks.png);
+    background-image: url(../images/clocks.png);
 }
 
 .benefits-block:nth-child(3)::before{
-    background-image: url(/images/diagrams.png);
+    background-image: url(../images/diagrams.png);
 }
 
 .benefits-block:nth-child(4)::before{
-    background-image: url(/images/astronauts.png);
+    background-image: url(../images/astronauts.png);
 }
 
 .benefits-block:not(:last-child){
@@ -369,7 +368,6 @@ height: 120px;
     padding-left: 344px;
     list-style-type: none;
     display: flex;
-    gap: 55px;
 }
 
 .team-name{

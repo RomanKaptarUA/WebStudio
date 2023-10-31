@@ -470,3 +470,103 @@ li{
     margin-left: 24px;
 }
 
+.contacts-list .site-number:hover{
+color: #2196F3;
+}
+
+.icon-phone{
+    margin-right: 20px;
+    fill: gray;
+}
+
+.site-number:hover .icon-phone{
+    fill: aqua;
+}
+
+.icon-phone:hover{
+    fill: #2196F3;
+}
+
+
+
+
+
+.social-list{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-list-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.social-list-link:hover,
+.social-list-link:focus{
+background-color: #2196F3;
+}
+
+.social-list-item:hover .social-list-link{
+fill: white;
+}
+
+
+
+
+
+.clients-list{
+    display: flex;
+    margin-left: -30px;
+    margin-bottom: 94px;
+}
+
+.clients-item{
+    margin-left: 30px;
+}
+
+.clients-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1BB;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+}
+
+.clients-icon{
+    width: 106px;
+    height: 60px;
+    fill: #AFB1BB;
+}
+
+.clients-link:hover, 
+.clients-link:focus{
+    fill: #2196F3;
+    border-color: #2196F3;
+}
+
+
+.pscl{
+    margin-top: 94px;
+    margin-bottom: 50px;
+    color: #212121;
+text-align: center;
+font-family: 'Roboto';
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}

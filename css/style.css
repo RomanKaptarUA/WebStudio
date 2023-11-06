@@ -479,8 +479,9 @@ color: #2196F3;
     fill: gray;
 }
 
-.site-number:hover .icon-phone{
-    fill: aqua;
+.site-number:hover,
+.icon-phone:hover{
+    fill: #2196F3;
 }
 
 .icon-phone:hover{
@@ -492,16 +493,17 @@ color: #2196F3;
 
 
 .social-list{
-    margin-top: 16px;
+    margin-top: 28px;
+    margin-bottom: 28px;
     display: flex;
     justify-content: center;
+    
 }
 
 .social-list-link{
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -512,15 +514,23 @@ color: #2196F3;
     height: 20px;
 }
 
+.social-list-link:hover .social-list-icon{
+    fill: #ffffff;
+}
+
+
+
 .social-list-link:hover,
 .social-list-link:focus{
 background-color: #2196F3;
+
 }
+
 
 .social-list-item:hover .social-list-link{
-fill: white;
+    fill: white;
 }
-
+    
 
 
 

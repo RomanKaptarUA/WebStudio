@@ -614,7 +614,6 @@ margin-left: -250px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -623,20 +622,17 @@ margin-left: -250px;
 .social-list-icon-a{
     width: 20px;
     height: 20px;
+    fill: #EEE;
+}
+
+.social-list-link-a:hover .social-list-icon-a{
+    fill: #EEE;
 }
 
 .social-list-link-a:hover,
 .social-list-link-a:focus{
-    fill: #EEE;
 background-color: #2196F3;
 }
-
-.social-list-item-a:hover .social-list-link-a{
-fill: white;
-}
-
-
-
 
 
 .clients-list-a{

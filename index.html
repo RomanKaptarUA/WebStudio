@@ -58,7 +58,71 @@
         <!--Замовлення послуги-->
         <section class="post container">
             <h2 class="post-title"><br>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br> ВАШОГО БІЗНЕСУ</h2>
-            <button class="post-button" type="button">Замовити послугу</button>
+            <button class="post-button" type="button" data-modal-open>Замовити послугу</button>
+           
+            <!--Modal Window-->
+          <div class="backdrop is-hidden" data-modal>
+             <div class="modal">
+                <button class="modal-close-button" type="button" data-modal-close>
+                  <svg class="modal-icon" width="18" height="18">
+                    <use href="./images/...."></use>
+                  </svg>                   
+                </button>
+                <form class="modal-form">
+                    <p class="modal-form-title">Залиште дані</p>
+                     <div class="modal-form-field">
+                        <label for="name" class="modal-form-label">Ім'я
+                        <input type="text" class="form-input" name="name" id="name">
+
+                    </label>
+                    <svg class="modal-form-icon" width="18" height="18">
+                        <use href="./images/...."></use>
+                    </svg> 
+                    </div>
+                    
+                    <div class="modal-form-field">
+                        <label for="tel" class="modal-form-label">Телефон
+                        <input type="tel" class="form-input" name="tel" id="tel">
+
+                    </label>
+                    <svg class="modal-form-icon" width="18" height="18">
+                        <use href="./images/...."></use>
+                    </svg> 
+                    </div>
+                    
+                    <div class="modal-form-field">
+                        <label for="mail" class="modal-form-label">Пошта
+                        <input type="mail" class="form-input" name="email" id="mail">
+
+                    </label>
+                    <svg class="modal-form-icon" width="18" height="18">
+                        <use href="./images/...."></use>
+                    </svg> 
+                    </div>
+                    <div class="modal-form-field">
+                        <label class="modal-form-label" for="comment">
+                            Коментар
+                        </label>
+                        <textarea class="comment" name="comment" id="comment" rows="10" placeholder="Залиште коментар"></textarea>
+                    </div>
+
+                     <label class="modal-form-policy">
+                        <input type="checkbox" class="modal-form-checkbox" id="policy">
+                         <span class="modal-form-policy-text"> 
+                            Погоджуюсь....
+                         </span>
+
+                            <a href="#" class="modal-form-policy-link">Умови договору</a>
+                         </span> 
+                    </label>
+
+                      <button type="submit" class="agree-btn">Submit</button>
+
+                </form>
+
+             </div>
+          </div>
+        
         </section>
 
         <!--Про нас-->
@@ -382,10 +446,9 @@
         </div>    
 
         </div>
-       </footer>
 
 
-
+<script src="script.js"></script>
 
 
 </body>

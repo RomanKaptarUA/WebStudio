@@ -149,6 +149,7 @@ body{
 }
 .post-title{
     display: flex;
+    justify-content: center;
     color: var(--second-text-color);
     font-size: 44px;
     font-weight: 900;
@@ -490,8 +491,9 @@ color: #2196F3;
     fill: #2196F3;
 }
 
-.icon-phone:hover{
-    fill: #2196F3;
+.icon-post{
+    position: absolute;
+    right: 130px;
 }
 
 .icon{
@@ -500,7 +502,7 @@ color: #2196F3;
 
 .icon-phone{
     position: absolute;
-    right: 300px;
+    right: 290px;
 }
 
 .div-vid2{
@@ -538,7 +540,7 @@ color: #2196F3;
 }
 
 .social-list-link:hover .social-list-icon{
-    color: #ffffff;
+    fill: #ffffff;
 }
 
 .social-list-link:hover,

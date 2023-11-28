@@ -7,6 +7,8 @@
  --backgroun-team-color: #F5F4FA;
  --logo-color: #000;
  --secondary-background-color: #2f303A;
+ --background-color-auto: #008cff;
+ --time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 *,
@@ -49,6 +51,30 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.icon-post{
+   padding-left: 100px;
+}
+
+
+
+.site-lead:hover .icon-post{
+    fill: #2196F3;
+    transition: color 250ms var(--time-function);
+}
+
+.header-list-item .header-number{
+    transition: fill 250ms var(--time-function);
+}
+
+.header-list-item .site-number{
+    transition: color 250ms var(--time-function);
+}
+
+.site-number:hover .icon-phone{
+    fill: #2196F3;
+    transition: color 250ms var(--time-function);
 }
 
 .header-list-item:not(:last-child){
@@ -384,7 +410,14 @@ height: 120px;
     border-radius: 2px;
     position: absolute;
     left: 0;
-    bottom: -26px; 
+    bottom: -26px;
+    transition: background-color 1000ms ease-in-out; 
+ }
+
+ .site-link:hover.current::after{
+    background-color: var(--background-color-auto);
+    transition: background-color 1000ms ease-in-out;
+
  }
 
 .team-name{
@@ -532,6 +565,7 @@ color: #2196F3;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms var(--time-function), fill 250ms var(--time-function);
 }
 
 .social-list-icon{
@@ -553,6 +587,7 @@ background-color: #2196F3;
     display: flex;
     margin-left: -30px;
     margin-bottom: 94px;
+    transition: background-color 250ms var(--time-function), fill 250ms var(--time-function);
 }
 
 .clients-item{
@@ -639,8 +674,14 @@ margin-left: -250px;
     fill: #EEE;
 }
 
+.social-list-link-a{
+    transition: background-color 250ms var(--time-function), fill 250ms var(--time-function);
+    justify-content: center;
+    align-items: center;
+}
+
 .social-list-link-a:hover .social-list-icon-a{
-    fill: #EEE;
+    fill: #008cff;
 }
 
 .social-list-link-a:hover,
@@ -666,7 +707,8 @@ background-color: #2196F3;
     border-radius: 4px;
     display: flex;
     justify-content: center;
-    align-content: center;    
+    align-content: center;  
+    box-sizing: border-box;  
 }
 
 .clients-icon-a{
@@ -687,6 +729,7 @@ background-color: #2196F3;
     margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.10);
     border-radius: 50%;
+
 }
 
 .p-dz{

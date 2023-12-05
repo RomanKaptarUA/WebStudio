@@ -53,8 +53,14 @@ a{
     justify-content: space-between;
 }
 
+.site-lead{
+    position: relative;
+}
+
 .icon-post{
-   padding-left: 100px;
+   position: absolute;
+   top: 1px;
+   right: 1000px;
 }
 
 
@@ -605,6 +611,7 @@ background-color: #2196F3;
 }
 
 .clients-icon{
+    
     width: 106px;
     height: 60px;
     fill: #AFB1BB;
@@ -629,6 +636,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
+
 
 .pry{
     color: #FFF;
@@ -729,8 +737,8 @@ background-color: #2196F3;
     margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.10);
     border-radius: 50%;
-
 }
+
 
 .p-dz{
     position: relative;
@@ -794,6 +802,11 @@ background-color: #2196F3;
     justify-content: center;
 }
 
+.form-input{
+    width: 448px;
+    height: 40px;
+}
+
 .modal-form-title{
     color: #212121;
 text-align: center;
@@ -820,6 +833,22 @@ letter-spacing: 0.6px;
      padding-right: 40px;
      padding-left: 40px;
      padding-bottom: 40px;
+}
+
+.modal-form:hover{
+    transition-property: translate;
+    transition-delay: 0ms;
+    transition: transform 250ms ease-in-out;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.modal-p{
+    display: flex;
+    justify-content: left;
 }
 
 .modal-form-field{

@@ -90,6 +90,7 @@ a{
 .header-link:hover,
 .header-link:focus{
     color: var(--background-button-color);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .activity-list{
@@ -153,6 +154,7 @@ body{
 
 .site-list:hover{
     color: var(--background-button-color);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-link{
@@ -164,6 +166,7 @@ body{
 .site-link:hover,
 .site-link:focus{
     color: var(--background-button-color);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*post*/
@@ -477,6 +480,7 @@ li{
 .button-link:focus{
     background-color: var(--background-button-color);
     color: #ffffff;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio{
@@ -523,11 +527,13 @@ li{
 
 .contacts-list .site-number:hover{
 color: #2196F3;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-number:hover,
 .icon-phone:hover{
     fill: #2196F3;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-post{
@@ -581,11 +587,13 @@ color: #2196F3;
 
 .social-list-link:hover .social-list-icon{
     fill: #ffffff;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
 .social-list-link:focus{
 background-color: #2196F3;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -621,6 +629,7 @@ background-color: #2196F3;
 .clients-link:focus{
     fill: #2196F3;
     border-color: #2196F3;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -695,6 +704,7 @@ margin-left: -250px;
 .social-list-link-a:hover,
 .social-list-link-a:focus{
 background-color: #2196F3;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -729,6 +739,7 @@ background-color: #2196F3;
 .clients-link-a:focus{
     fill: #2196F3;
     border-color: #2196F3;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-item-a{
@@ -827,6 +838,7 @@ letter-spacing: 0.6px;
 .modal-icon:hover,
 .modal-icon:focus{
     fill: #2196F3;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form{
@@ -844,6 +856,7 @@ letter-spacing: 0.6px;
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 40px;
+    transform: ;
 }
 
 .modal-p{

@@ -58,12 +58,24 @@ a{
 }
 
 .icon-post{
-   position: absolute;
-   top: 1px;
-   right: 1000px;
+       margin-right: 430px;
+       width: 15px;
+       height: 15px;
 }
 
+.icon-post:hover{
+    fill: #2196F3;
+}
 
+.icon-phone{
+    padding-right: 40px;
+    width: 150px;
+    height: 15px;
+}
+
+.site-lead:hover{
+    fill: #2196F3;
+}
 
 .site-lead:hover .icon-post{
     fill: #2196F3;
@@ -330,7 +342,6 @@ span{
     text-decoration: none;
 }
 
-
 .section-title{
     color: #212121;
     margin-top: 222px;
@@ -581,6 +592,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon{
+    fill: #757575;
     width: 20px;
     height: 20px;
 }
@@ -623,6 +635,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 106px;
     height: 60px;
     fill: #AFB1BB;
+}
+
+.clients-icon:hover{
+   fill: #2196F3;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover, 
@@ -697,8 +714,8 @@ margin-left: -250px;
     align-items: center;
 }
 
-.social-list-link-a:hover .social-list-icon-a{
-    fill: #008cff;
+.social-list-icon-a:hover .social-list-link-a{
+    fill: #2196F3;
 }
 
 .social-list-link-a:hover,

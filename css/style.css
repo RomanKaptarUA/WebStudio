@@ -437,6 +437,7 @@ height: 120px;
  .site-link:hover.current::after{
     background-color: var(--background-color-auto);
     transition: background-color 1000ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
  }
 
@@ -833,6 +834,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .form-input{
     width: 448px;
     height: 40px;
+    border-radius: 4px;
 }
 
 .modal-form-title{
@@ -846,7 +848,23 @@ line-height: normal;
 letter-spacing: 0.6px;
 }
 
-.social-list-link:hover .
+.modal-form-icon1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.modal-form-icon2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.modal-form-icon3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 .modal-icon{
     fill: var(--primary-background-color);
@@ -900,6 +918,11 @@ letter-spacing: 0.6px;
     color: var(--primary-text-color);
 }
 
+.comment{
+    width: 416px;
+    height: 96px;
+}
+
 .post-button-a{
     display: flex;
     position: relative;
@@ -951,6 +974,7 @@ letter-spacing: 0.6px;
     transform: translateX(0);
     opacity: 1;
     visibility: visible;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover{
@@ -983,6 +1007,7 @@ letter-spacing: 0.6px;
 .block-link:hover .div-vid{
     transform: translateY(0);
     opacity: 1;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 

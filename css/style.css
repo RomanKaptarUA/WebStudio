@@ -124,9 +124,9 @@ a{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.activity-list{
+/* .activity-list{
     margin-bottom: 86px;
-}
+} */
 
 team
 
@@ -203,7 +203,7 @@ team
 /*post*/
 
 
-.team-list{
+/* .team-list{
     color: var(--title-text-color);
     font-size: 16px;
     font-weight: 500;
@@ -243,28 +243,28 @@ team
 
 .card{
     width: 270px;
-}
+} */
 
 /*benefits*/
 
 
 .benefits-text{
-    padding-bottom: 20px;
+    /* padding-bottom: 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.54px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; */
 }
 
 
 
-.page-footer{
+/* .page-footer{
     padding-top: 60px;
     background-color: var(--secondary-background-color);
     white-space: 80px;
     padding-bottom: 60px;
-}
+} */
 
 
 
@@ -276,7 +276,7 @@ span{
     color: var(--background-button-color);
 } */
 
-.adress-text{
+/* .adress-text{
     color: var(--second-text-color);
     font-weight: 400;
     line-height: 24px;
@@ -310,13 +310,13 @@ span{
     letter-spacing: 0.42px;
     cursor: pointer;
     text-decoration: none;
-}
+} */
 
-.section-title{
+/* .section-title{
     color: #212121;
     margin-top: 222px;
     
-}
+} */
 
 /* .benefits-list{
     list-style-type: none;
@@ -332,7 +332,7 @@ height: 120px;
 
 
 
-.benefits-block::before{
+/* .benefits-block::before{
     content: '';
     display: block;
     width: 100%;
@@ -342,9 +342,9 @@ height: 120px;
     background-repeat: no-repeat;
     background-size: 70px;
     background-position: center;
-}
+} */
 
-.benefits-block:nth-child(2)::before{
+/* .benefits-block:nth-child(2)::before{
     background-image: url(../images/clocks.png);
 }
 
@@ -358,14 +358,14 @@ height: 120px;
 
 .benefits-block:not(:last-child){
     margin-right: 30px;
-}
+} */
 
-.benefits{
+/* .benefits{
     margin-top: 94px;
-}
+} */
 
 .benefits-name{
-    color: var(--title-text-color);
+    /* color: var(--title-text-color);
     margin-top: 20px;
     font-size: 14px;
     font-weight: 700;
@@ -373,7 +373,7 @@ height: 120px;
     letter-spacing: 0.42px;
     font-family: 'Roboto';
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
 }
 
 .site-list{
@@ -411,11 +411,11 @@ height: 120px;
 
  }
 
-.team-name{
+/* .team-name{
     margin-top: 30px;
     margin-bottom: 10px;
     color: #212121;
-}
+} */
 
 
 
@@ -544,7 +544,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     top: -10px;
 }
 
-.social-list{
+/* .social-list{
     margin-top: 28px;
     margin-bottom: 28px;
     display: flex;
@@ -592,9 +592,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         background-color: #2196F3;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-}
+} */
 
-.clients-list{
+/* .clients-list{
     display: flex;
     margin-left: -30px;
     margin-bottom: 94px;
@@ -653,10 +653,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         animation-name: Clientsname;
     }
     
-}
+} */
 
 
-.pscl{
+/* .pscl{
     margin-top: 94px;
     margin-bottom: 50px;
     color: #212121;
@@ -667,10 +667,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
-}
+} */
 
 
-.pry{
+/* .pry{
     color: #FFF;
 font-family: 'Roboto';
 font-size: 14px;
@@ -681,17 +681,17 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 margin-top: -150px;
 margin-left: -250px;
-}
+} */
 
-.div-svg{
+/* .div-svg{
     display: flex;
     justify-content: center;   
-}
+} */
 
 
 
 
-.social-list-a{
+/* .social-list-a{
     margin-top: -120px;
     margin-left: -120px;
     display: flex;
@@ -783,10 +783,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.10);
     border-radius: 50%;
-}
+} */
 
 
-.p-dz{
+/* .p-dz{
     position: relative;
     bottom: 70px;
     color: var(--second-text-color);
@@ -800,9 +800,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         justify-content: center;
         flex-direction: column;
         opacity: 0.9;
-}
+} */
 
-.backdrop{
+/* .backdrop{
         position: fixed;
         top: 0;
         left: 0;
@@ -933,14 +933,14 @@ letter-spacing: 0.6px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
-}
+} */
 
 .comment{
     width: 416px;
     height: 96px;
 }
 
-.post-button-a{
+/* .post-button-a{
     display: flex;
     position: relative;
     top: 30px;
@@ -955,7 +955,7 @@ letter-spacing: 0.6px;
     border: none;
     padding: 10px 32px;
     margin: 0 auto;
-}
+} */
 
 .menu-item{
     position: relative;
